@@ -30,7 +30,7 @@ import portfolio from "./portfolio.png";
 import emailapi from "./emailapi.png";
 import startup from "./lesjardinsfrancais.png";
 import ponggame from "./ponggame.png";
-import travelwebsite from "./travelwebsite.png";
+import bibliopus from "./bibliopus.png";
 import dqeproject from "./dqeanimation.gif";
 
 export {
@@ -63,6 +63,6 @@ export {
   emailapi,
   startup,
   ponggame,
-  travelwebsite,
+  bibliopus,
   dqeproject,
 };

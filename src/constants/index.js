@@ -19,7 +19,7 @@ import {
   teaminside,
   portfolio,
   ponggame,
-  travelwebsite,
+  bibliopus,
   dqeproject,
   emailapi,
   startup,
@@ -123,52 +123,52 @@ const technologies = [
 const experiences = [
   {
     title: "Front-End Developer Vue.js",
-    company_name: "John Paul (Accor) | Apprenticeship",
+    company_name: "John Paul (Accor), Paris | Apprenticeship",
     icon: johnpaul,
     iconBg: "#383E56",
     date: "October 2021 - September 2023 (2 years)",
     points: [
-      "Developing and maintaining web applications using Vue.js.",
-      "Collaborating with cross-functional teams including a team of Front-End and Back-End developers, UX/UI Designers and Product Managers to create high-quality products.",
-      "Use of development tools (Git, Gitlab, Jira) and learning the Front End environment (Vue.js, Storybook, Cypress)",
-      "Development of new features in a project with a team of developers using Agile method (SCRUM)",
-      "Test of new features and bug-fixing (Cypress, SquashTM)"
+      "Developing and maintaining web applications using Vue.js",
+      "Use of development tools (Git, Gitlab, Jira) and mastering the Front End ecosystem (Vue.js, Storybook, Cypress)",
+      "Development of new features in a developer team for different projects within the company using Agile methods (SCRUM)",
+      "Test of new features and bug-fixing (Cypress, SquashTM)",
+      "Collaborating with cross-functional teams including a team of Front-End and Back-End developers, UX/UI Designers and Product Managers to create high-quality products",
     ],
   },
   {
     title: "Motion Designer",
-    company_name: "TeamInside Group | Internship",
+    company_name: "TeamInside Group, Paris | Internship",
     icon: teaminside,
     iconBg: "#E6DEDD",
     date: "February 2021 - July 2022 (6 months)",
     points: [
       "Creation of product visuals and videos in Motion Design (After Effect, Photoshop) for advertising agencies",
-      "Having courses with another Motion Designer once a week to learn new graphic and motion design technics using the Adobe Suits",
-      "Collaborating with cross-functional teams including motion designers, graphic designers, the marketing team and product managers to create high-quality video production.",
+      "Mastering the Adobe Suits by having courses once a week with another Motion Designer to learn new graphic and motion design technics",
+      "Collaborating with cross-functional teams including motion designers, graphic designers, the marketing team and product managers to create high-quality video production"
     ],
   },
   {
     title: "Graphic & Motion Design Manager",
-    company_name: "DQE Software | Fixed-Term Contract",
+    company_name: "DQE Software, Paris | Fixed-Term Contract",
     icon: dqe,
     iconBg: "#383E56",
     date: "July 2020 - August 2020 (2 months)",
     points: [
       "Designing new storyboards for promotional video products",
-      "Collaborating with cross-functional teams including the marketing team and product managers to create high-quality video products.",
-      "Production of dynamic motion design demo videos showcasing the comprehensive suite of software solutions, utilized effectively for exhibitions and client presentations to enhance understanding of the product offerings.",
+      "Production of dynamic motion design demo videos showcasing the comprehensive suite of software solutions, utilized effectively for exhibitions and client presentations to enhance understanding of the product offerings",
+      "Collaborating with cross-functional teams including the marketing team and product managers to create high-quality video products"
     ],
   },
   {
     title: "Marketing Assistant & Graphic Designer",
-    company_name: "DQE Software | Internship",
+    company_name: "DQE Software, Paris | Internship",
     icon: dqe,
     iconBg: "#E6DEDD",
     date: "June 2019 - August 2019 (3 months)",
     points: [
       "Creation of advertising banners for exhibitions, e-mail banners ",
       "Social networks management",
-      "Creating motion design videos from their storyboards to the final product presentation videos",
+      "Creating motion design videos from their storyboards to the final product demos",
     ],
   },
 ];
@@ -180,15 +180,15 @@ const projects = [
       "I've made this portfolio website to show my skills in Front-End Web Development, you can consult the project on Github to see how I use React, ThreeJS and Tailwind all together.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "Threejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -199,18 +199,18 @@ const projects = [
   {
     name: "Email API",
     description:
-      "Bridge API that redirect my requests data from my contact form website to the Brevo API. Brevo is a service that send me automatically an email when someone leave me a message through my portfolio contact section and this API made the link possible between them.",
+      "Bridge API that redirect my requests data from my contact form  to the Brevo API. Brevo is a service that send me automatically an email when someone leave me a message through my portfolio contact section.",
     tags: [
       {
-        name: "nitro",
+        name: "Nitro",
         color: "blue-text-gradient",
       },
       {
-        name: "brevo",
+        name: "Brevo",
         color: "green-text-gradient",
       },
       {
-        name: "zod",
+        name: "Zod",
         color: "pink-text-gradient",
       },
     ],
@@ -224,15 +224,15 @@ const projects = [
       "Website about a french startup. Presenting their goal, their history and a complete presentation of the different solutions they offer.",
     tags: [
       {
-        name: "vue",
+        name: "Vue",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -263,26 +263,26 @@ const projects = [
     source_code_link: "https://github.com/eliott11/Pong-Game",
   },
   {
-    name: "Travel Website",
+    name: "Book App",
     description:
-      "Landing Website of a travel agency that provide custom travels. Made for training basic HTML and CSS skills.",
+      "Book app for helping people to read more and find new books while assisting local bookshops with their visibility, their logistics and their management.",
     tags: [
       {
-        name: "HTML",
+        name: "Vue",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Turbo",
         color: "green-text-gradient",
       },
       {
-        name: "Training",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: travelwebsite,
-    imagelink: behance,
-    source_code_link: "https://www.behance.net/gallery/125748573/Landing-Page",
+    image: bibliopus,
+    imagelink: github,
+    source_code_link: "https://github.com/Bibliopus/",
   },
   {
     name: "Motion Design Demo Videos and Banners",
@@ -298,7 +298,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "InDesign",
+        name: "Adobe",
         color: "pink-text-gradient",
       },
     ],

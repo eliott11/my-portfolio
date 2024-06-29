@@ -47,10 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer with experience in TypeScript and
-        JavaScript with 2 years of experience and many side and school projects. expertise in frameworks like Vue.js and React. I like to improve by learning new things and collaborate closely with other developers to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software developer specializing in TypeScript and JavaScript with 2 years of professional experience complemented by side and school projects. Proficient in frameworks such as Vue.js and React, I thrive on continuous improvement through learning and enjoy collaborating closely with fellow developers. My focus is on crafting efficient, scalable, and user-friendly solutions that address real-world challenges while ensuring it remains visually appealing. If you're interested in collaborating, feel free to reach out to me via my contact form or message me on LinkedIn.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
