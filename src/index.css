@@ -19,6 +19,10 @@
   display: block;
 }
 
+.canvas {
+  touch-action: pan-y !important;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

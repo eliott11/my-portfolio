@@ -310,17 +310,17 @@ const projects = [
 
 const links = [
   {
-    title: "My Github",
+    title: "Github",
     href: "https://github.com/eliott11",
     image: github,
   },
   {
-    title: "My LinkedIn",
+    title: "LinkedIn",
     href: "https://www.linkedin.com/in/eliott-dt/",
     image: linkedin,
   },
   {
-    title: "My Behance",
+    title: "Behance",
     href: "https://www.behance.net/eliottdemont",
     image: behance,
   },
