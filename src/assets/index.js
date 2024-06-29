@@ -1,4 +1,4 @@
-import logo from "./logo_favicon.jpg";
+import logo from "./logo_website.jpg";
 import graphic from "./graphic.png";
 import motion from "./motion.png";
 import web from "./web.png";
