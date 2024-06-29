@@ -194,7 +194,7 @@ const projects = [
     ],
     image: portfolio,
     imagelink: github,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/eliott11/my-portfolio",
   },
   {
     name: "Email API",
