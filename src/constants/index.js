@@ -180,15 +180,15 @@ const projects = [
       "I've made this portfolio website to show my skills in Front-End Web Development, you can consult the project on Github to see how I use React, ThreeJS and Tailwind all together.",
     tags: [
       {
-        name: "React",
+        name: "Vite",
         color: "blue-text-gradient",
       },
       {
-        name: "Threejs",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Threejs",
         color: "pink-text-gradient",
       },
     ],
