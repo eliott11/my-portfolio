@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import Tilt from "react-parallax-tilt"
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, Links, StarsCanvas } from './components';
 
@@ -20,6 +20,7 @@ const App = () => {
         <Contact/>
         <StarsCanvas/>
       </div>
+      <SpeedInsights />
     </div>
     </BrowserRouter>
   )
