@@ -8,9 +8,9 @@ import { links } from "../constants";
 import { SectionWrapper } from "../hoc";
 
 const LinkCard = ({ index, title, href, image }) => (
-  <a href={href} target="_blank">
-  <Tilt className="xs:w-[250px] w-full" href={href}>
-    <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+  <a className="xs:w-[300px] w-full" href={href} target="_blank">
+  <Tilt href={href}>
+      <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)} animate={{ opacity: 1 }}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
@@ -43,11 +43,6 @@ const Links = () => {
         <h2 className={`${styles.sectionHeadText}`}>Links.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-2xl leading-[30px]"
-      >
-      </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {links.map((link, index) => (
           <LinkCard key={`link-${index}`} index={index} {...link} />
