@@ -10,7 +10,7 @@ import { SectionWrapper } from "../hoc";
 const LinkCard = ({ index, title, href, image }) => (
   <a className="xs:w-[300px] w-full" href={href} target="_blank">
   <Tilt href={href}>
-      <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)} animate={{ opacity: 1 }}
+      <motion.div variants={fadeIn("left", "spring", index * 0.5, 0.75)} animate={{ opacity: 1 }}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div

@@ -175,7 +175,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "My Portfolio Website",
+    name: "Portfolio Website",
     description:
       "I've made this portfolio website to show my skills in Front-End Web Development, you can consult the project on Github to see how I use React, ThreeJS and Tailwind all together.",
     tags: [
