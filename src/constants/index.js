@@ -140,7 +140,7 @@ const experiences = [
     company_name: "TeamInside Group, Paris | Internship",
     icon: teaminside,
     iconBg: "#E6DEDD",
-    date: "February 2021 - July 2022 (6 months)",
+    date: "February 2021 - July 2021 (6 months)",
     points: [
       "Creation of product visuals and videos in Motion Design (After Effect, Photoshop) for advertising agencies",
       "Mastering the Adobe Suits by having courses once a week with another Motion Designer to learn new graphic and motion design technics",
