@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Passionate Frontend Web Developer.
-            <br className='sm:block hidden' /> I am currently learning Three.js, React and other frontend
+            <br className='sm:block hidden' /> I am currently learning React, Three.js and other frontend
             <br className='sm:block hidden' /> technologies with a great interest in Web Design and 3D.
           </p>
         </div>
