@@ -17,6 +17,7 @@ import {
   dqe,
   johnpaul,
   teaminside,
+  garden,
   portfolio,
   ponggame,
   bibliopus,
@@ -52,16 +53,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front-End Web Developer",
+    title: "Frontend Web Developer",
     icon: web,
   },
   {
-    title: "Motion Designer",
-    icon: motion,
+    title: "UX & UI Designer",
+    icon: graphic,
   },
   {
-    title: "Graphic Designer",
-    icon: graphic,
+    title: "Motion & Graphic Designer",
+    icon: motion,
   },
 ];
 
@@ -122,14 +123,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer Vue.js",
+    title: "Frontend Web Developer Vue.js",
     company_name: "John Paul (Accor), Paris | Apprenticeship",
     icon: johnpaul,
     iconBg: "#383E56",
     date: "October 2021 - September 2023 (2 years)",
     points: [
       "Developing and maintaining web applications using Vue.js",
-      "Use of development tools (Git, Gitlab, Jira) and mastering the Front End ecosystem (Vue.js, Storybook, Cypress)",
+      "Use of development tools (Git, Gitlab, Jira) and mastering of the Front End ecosystem (Vue.js, Storybook, Postman)",
       "Development of new features in a developer team for different projects within the company using Agile methods (SCRUM)",
       "Test of new features and bug-fixing (Cypress, SquashTM)",
       "Collaborating with cross-functional teams including a team of Front-End and Back-End developers, UX/UI Designers and Product Managers to create high-quality products",
@@ -151,7 +152,7 @@ const experiences = [
     title: "Graphic & Motion Design Manager",
     company_name: "DQE Software, Paris | Fixed-Term Contract",
     icon: dqe,
-    iconBg: "#383E56",
+    iconBg: "#002748",
     date: "July 2020 - August 2020 (2 months)",
     points: [
       "Designing new storyboards for promotional video products",
@@ -160,10 +161,20 @@ const experiences = [
     ],
   },
   {
+    title: "Frontend Web Developer, UX/UI Designer",
+    company_name: "The French Gardens (Startup), Paris | Freelance",
+    icon: garden,
+    iconBg: "#ffffff",
+    date: "February 2020 - June 2020 (5 months)",
+    points: [
+      "Website showcasing the startup, covering everything from the initial mockup to full development. (Figma, Vue.js)",
+    ],
+  },
+  {
     title: "Marketing Assistant & Graphic Designer",
     company_name: "DQE Software, Paris | Internship",
     icon: dqe,
-    iconBg: "#E6DEDD",
+    iconBg: "#002748",
     date: "June 2019 - August 2019 (3 months)",
     points: [
       "Creation of advertising banners for exhibitions, e-mail banners ",

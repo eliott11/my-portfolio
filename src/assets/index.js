@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import dqe from "./company/dqe.png";
 import teaminside from "./company/teaminside.png";
 import johnpaul from "./company/johnpaul.png";
+import garden from "./company/garden.png";
 import linkedin from "./company/linkedin.svg"
 import behance from "./behance.svg"
 
@@ -57,6 +58,7 @@ export {
   dqe,
   teaminside,
   johnpaul,
+  garden,
   linkedin,
   behance,
   portfolio,
